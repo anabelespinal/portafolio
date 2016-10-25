@@ -14,7 +14,7 @@ nav{
 	box-shadow: none;
 }
 nav ul a{
-	color: #90B2AE;
+	color: #f4cd36;
 }
 /*#banner{
 	height: 39em;
@@ -75,8 +75,12 @@ article:first-child .heading{
   margin-bottom: 0.5em;
   /*text-align: center;*/
 }
+.heading div h1 + h3{
+	color: #ff8f00;
+}
+
 h3:first-child[class="flow-text"]{
-	color: #C18000;
+	color: #eedf6e;
 	/*font-size: 100%;*/
   letter-spacing: 10px;
   word-spacing: 9px;
@@ -93,8 +97,8 @@ img[alt="perfil"], img[alt="coder"]{
 	height: 10em;
 	margin-bottom: 1em;
 }
-article:nth-child(2), article:nth-child(4){
-	height: 43.3em;
+article:nth-child(2){
+	/*height: 43.3em;*/
 	/*padding-bottom: 1em;*/
 }
 
@@ -103,8 +107,56 @@ article:nth-child(2), article:nth-child(4){
 }
 
 .parallax-container{
-	height: 10em;
+	height: 15em;
 }
 /*article:nth-child(4){
 	height: 43.3em;
+}*/
+
+.habilidades:first-child div img:first-child{
+	width: 32%;
+}
+.habilidades:nth-child(2) div img:first-child{
+  width: 43%;
+}
+.habilidades:nth-child(3) div img:first-child{
+	width: 49%;
+}
+.framework:first-child div img:first-child{
+	width: 35%;
+}
+.framework:nth-child(2) div img:first-child{
+  width: 43%;
+  margin-top: 3em;
+}
+.hover{
+	padding: 5% 0;
+	margin: 2% 0;
+}
+.hover:hover{
+	background-color: #FFBA30;
+}
+footer{
+	/*height: 10em;*/
+	padding: 3%;
+	background-color: #9C6800;
+}
+img[alt="link"]{
+	width: 5em;
+	margin: 7% 7% 0 7%;
+}
+img[alt="cel"], [alt="cel"], [alt="github"], [alt="slack"]{
+	width: 6em;
+	margin: 7% 7% 0 7%;
+}
+/*img[alt="github"]{
+	width: 6em;
+	margin: auto;
+}
+img[alt="gmail"]{
+	width: 6em;
+}
+img[alt="slack"]{
+	width: 6em;
+	margin: auto;
 }*/
