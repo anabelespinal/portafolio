@@ -36,7 +36,7 @@ $(document).ready(function(){
 		}, 300);
 	});
 	$(window).scroll(function(){
-		if ( $(this).scrollTop() > 650){
+		if ( $(this).scrollTop() > 640){
 			$("#boton-subir").slideDown(300);
 		}else{
 			$("#boton-subir").slideUp(300);
