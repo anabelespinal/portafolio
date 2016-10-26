@@ -6,7 +6,8 @@
 
 
 nav{
-	background-color: #D59B25;
+	/*background-color: #D59B25;*/
+	background-color: #E68C19;
 	/*position: fixed;*/
 	box-shadow: none;
 }
@@ -58,7 +59,7 @@ article:first-child .heading{
 	border: 10px white double;
 	border-right: none;
 	border-left: none;
-	padding: 5% 5% 3% 5%;
+	padding: 3% 4% 4% 4%;
 	margin: auto;
 	word-wrap: break-word;
 		/*top: center;*/
@@ -132,20 +133,31 @@ article:nth-child(2){
 	margin: 2% 0;
 }
 .hover:hover{
-	background-color: #FFBA30;
+	background-color: rgba(255, 186, 48, 0.6); 
 }
 footer{
 	/*height: 10em;*/
 	padding: 3%;
-	background-color: #9C6800;
+	/*background-color: #9C6800;*/
+	background-color: #F38E0E;
 }
 img[alt="link"]{
 	width: 5em;
 	margin: 7% 7% 0 7%;
 }
-img[alt="cel"], [alt="cel"], [alt="github"], [alt="slack"]{
+img[alt="link"]:hover{
+	background-color: black;
+	border-radius: 40px;
+}
+
+img[alt="cel"], [alt="github"], [alt="gmail"]{
 	width: 6em;
 	margin: 7% 7% 0 7%;
+}
+
+img[alt="cel"]:hover, [alt="github"]:hover, [alt="gmail"]:hover{
+	background-color: black;
+	border-radius: 100px;
 }
 /*img[alt="github"]{
 	width: 6em;
@@ -154,7 +166,7 @@ img[alt="cel"], [alt="cel"], [alt="github"], [alt="slack"]{
 img[alt="gmail"]{
 	width: 6em;
 }
-img[alt="slack"]{
+img[alt="gmail"]{
 	width: 6em;
 	margin: auto;
 }*/
@@ -182,4 +194,23 @@ p[class="black-text"], p[class="black-text left-align"]{
 	font-size: 50px;
 	color: #DBC321;
 	/*padding: 0.2em;*/
+}
+button[type="button"]{
+	padding: 0.4em;
+	margin-left: 8%;
+	background-color: transparent;
+	border: 2px solid white;
+	font-size: 130%;
+	margin-top: 1em;
+	/*font-weight: bold;*/
+}
+button[type="button"] a{
+	color: #D49901;
+}
+
+button[type="button"]:hover a{
+	color: white;
+}
+button[type="button"]:hover{
+	border: 2px solid #E5BF26;
 }
