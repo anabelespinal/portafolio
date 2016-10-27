@@ -12,6 +12,7 @@ nav ul a{
 }
 img[src="imgs/logo.png"]{
 	margin: 0.3% 1%;
+	width: 3em;
 }
 .container{
 	width: 80% !important;

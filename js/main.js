@@ -43,3 +43,8 @@ $(document).ready(function(){
 		}
 	});
 });
+
+
+
+// traducir
+
