@@ -27,7 +27,7 @@ function carousel() {
 }
 
 
-// boton arriba
+// boton arriba 
 
 $(document).ready(function(){
 	$("#boton-subir").click(function(){
@@ -36,7 +36,7 @@ $(document).ready(function(){
 		}, 300);
 	});
 	$(window).scroll(function(){
-		if ( $(this).scrollTop() > 640){
+		if ( $(this).scrollTop() > 610){
 			$("#boton-subir").slideDown(300);
 		}else{
 			$("#boton-subir").slideUp(300);
@@ -44,7 +44,18 @@ $(document).ready(function(){
 	});
 });
 
+var array = [$("a[href*=#sobre-mi]"), $("a[href*=#herramientas]"), $("a[href*=#portafolio]"), $("a[href*=#contacto]")];
 
-
-// traducir
-
+for (var i=0; i <= array.length; i++) {
+	$(array[i]).click(function(){
+	  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var $target = $(this.hash);
+      $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+     	if ($target.length) {
+	      var targetOffset = $target.offset().top;
+	      $('html,body').animate({scrollTop: targetOffset}, 1000);
+	      return false;
+    	}
+		}
+	});
+}
