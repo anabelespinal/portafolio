@@ -155,7 +155,8 @@ button[type="button"]:hover{
 	background-size: cover;
 	height: 15em;
 	border-radius: 10px;
-  margin-left: 11%;
+  /*margin-left: 11%;*/
+  margin: 1em 0 2em 11%;
 }
 
 .uno div {
@@ -196,7 +197,7 @@ button[type="button"]:hover{
 .hover:hover div{
 	display: block;
 }
-.html{
+/*.html{
 	background-image: url(../imgs/html.png);
 }
 .css{
@@ -208,7 +209,7 @@ button[type="button"]:hover{
 	background-image: url(../imgs/b.png);
 }.m{
 	background-image: url(../imgs/m.png);
-}
+}*/
 .framework{
 	margin-bottom: 3em;
 }
@@ -270,4 +271,43 @@ footer img[src$=".png"] + div {
 	color: white;
 	font-family: 'Rajdhani', sans-serif;
 	font-size: 130%;
+}
+
+.porcentaje{
+	height: 1.5em;
+	background-color: #FF9500 !important;
+}
+.hab {
+	margin-top: 2em;
+}
+/*#herramientas{
+	padding-top: 3em;
+	padding-bottom: 3em;
+}*/
+.progress{
+	background-color: rgba(0,0,0,0.2) !important;
+}
+/*.determinate{
+	background-color: red !important;
+}*/
+/*.html {
+	background-color: #FF6314 !important;
+}
+.css{
+	background-color: #9003B8 !important;
+}
+.js{
+	background-color: #FFA100 !important; 
+}
+.b{
+	background-color: #430156 !important;
+}
+.m{
+	background-color: #DD118D !important;
+}*/
+.lenguajes p{
+	display: inline-block;
+	color: #B16800;
+	font-size: 150%;
+	font-family: 'Economica', sans-serif;
 }

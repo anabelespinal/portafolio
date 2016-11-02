@@ -59,3 +59,8 @@ for (var i=0; i <= array.length; i++) {
 		}
 	});
 }
+
+
+  // $("#holas").ready(function(){
+  //   $('.tooltipped').tooltip({delay: 50});
+  // });
