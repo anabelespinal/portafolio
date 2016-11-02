@@ -307,3 +307,13 @@ footer img[src$=".png"] + div {
 	font-size: 150%;
 	font-family: 'Economica', sans-serif;
 }
+.conocer{
+	font-size: 215% !important;
+}
+.conocer + a{
+	background-color: #EED632 !important;
+	border-radius: 30px;
+}
+.conocer + a:hover{
+	color: #AF9014;
+}
