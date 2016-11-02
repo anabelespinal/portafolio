@@ -280,10 +280,6 @@ footer img[src$=".png"] + div {
 .hab {
 	margin-top: 2em;
 }
-/*#herramientas{
-	padding-top: 3em;
-	padding-bottom: 3em;
-}*/
 .progress{
 	background-color: rgba(0,0,0,0.2) !important;
 }
