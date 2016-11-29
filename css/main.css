@@ -41,6 +41,9 @@ img[src="imgs/logo.png"]{
 	background-position: center;
 	height: 38.9em;
 }
+.heading div h1{
+	font-size: 469% !important;
+}
 .heading div{
 	width: 80%;
 	padding: 3% 4% 4% 4%;
@@ -150,13 +153,14 @@ p[class="black-text"], p[class="black-text left-align"]{
 button[type="button"]{
 	padding: 0.4em;
 	margin-left: 8%;
-	background-color: transparent;
-	/*border:none;*/
-	border: 1px solid #E1BF22;
+	background-color: rgba(255, 221, 0, 0.5);
+	/*border: 1px solid #E1BF22;*/
+	border: transparent;
+	border-radius: 8px;
 	margin-top: 3em;
 }
 button[type="button"] a{
-	color: #f1d606;
+	color: black;
 	font-size: 150%;
 }
 
@@ -346,4 +350,11 @@ footer img[src$=".png"] + div {
 .conocer + a:hover{
 	color: #AF9014;
 	background-color: transparent;
+}
+
+
+@media (max-width: 507px){
+	.heading div h1{
+		font-size: 340% !important;
+	}
 }
