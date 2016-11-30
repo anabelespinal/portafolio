@@ -72,7 +72,8 @@ h3:first-child[class="flow-text"]{
 	color: #eedf6e;
 	margin-top: 8%;
   letter-spacing: 10px;
-  word-spacing: 9px;
+  word-spacing: 5px;
+  font-size: 220%;
 }
 .divider:nth-child(2){
 	width: 14%;
@@ -145,7 +146,7 @@ p[class="black-text"], p[class="black-text left-align"]{
 }
 #boton-subir i{
 	font-size: 70px;
-	color: #DBC321;
+	color: #E5B718;
 }
 #boton-subir:hover i{
 	color: #949298;
@@ -153,19 +154,19 @@ p[class="black-text"], p[class="black-text left-align"]{
 button[type="button"]{
 	padding: 0.4em;
 	margin-left: 8%;
-	background-color: rgba(255, 221, 0, 0.5);
-	/*border: 1px solid #E1BF22;*/
-	border: transparent;
+	background-color: #6b6b6b;
+	border: 1px solid #E1BF22;
+	/*border: transparent;*/
 	border-radius: 8px;
 	margin-top: 3em;
 }
 button[type="button"] a{
-	color: black;
+	color: #f4cd36;
 	font-size: 150%;
 }
 
 button[type="button"]:hover a{
-	color: white;
+	color: #AAA8A8;
 }
 button[type="button"]:hover{
 	border: 2px solid #E5BF26;
@@ -353,8 +354,14 @@ footer img[src$=".png"] + div {
 }
 
 
-@media (max-width: 507px){
+@media (max-width: 400px){
 	.heading div h1{
-		font-size: 340% !important;
+		font-size: 310% !important;
+	}
+	.heading div h1 + h3{
+		font-size: 150% !important;
+	}
+	button[type="button"]{
+		margin-top: 4% !important;
 	}
 }
