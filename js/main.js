@@ -4,13 +4,6 @@ $(document).ready(function(){
   $('.parallax').parallax();
 });
 
-// parallax header
-// $(document).ready(function(){
-//   $('.parallax').parallax();
-// });
-
-// slider
-
 var slideIndex = 0;
 carousel();
 
@@ -19,11 +12,9 @@ function carousel() {
     var x = document.querySelectorAll(".heading div h1");
     for (i = 0; i < x.length; i++) {
       x[i].style.display = "none";
-      // $(x[i]).fadeOut();
     }
     slideIndex++;
     if (slideIndex > x.length) {slideIndex = 1}
-    // x[slideIndex-1].style.display = "block";
   $(x[slideIndex-1]).fadeIn();
     setTimeout(carousel, 5000);
 }
@@ -61,8 +52,3 @@ for (var i=0; i <= array.length; i++) {
 		}
 	});
 }
-
-
-  // $("#holas").ready(function(){
-  //   $('.tooltipped').tooltip({delay: 50});
-  // });
