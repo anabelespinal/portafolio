@@ -219,7 +219,7 @@ button[type="button"]:hover{
 	display: block;
 }
 .descripcion{
-	display: inline-block;
+	display:block;
 	color: #E3990A;
 	font-size: 120%;
 	font-weight: bold;
@@ -242,6 +242,10 @@ button[type="button"]:hover{
 }
 .trello{
 	background-image: url(../imgs/trello.png);
+}
+
+.musica {
+	background-image: url(../imgs/music.png);
 }
 .uno a{
 	padding: 0.2em;
