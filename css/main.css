@@ -341,3 +341,6 @@ footer img[src$=".png"] + div {
 		margin-top: 4% !important;
 	}
 }
+.email a{
+	color: white;
+}
