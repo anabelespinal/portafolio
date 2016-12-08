@@ -153,20 +153,22 @@ button[type="button"]{
 	padding: 0.4em;
 	margin-left: 8%;
 	background-color: #6b6b6b;
-	border: 1px solid #E1BF22;
+	border: 2px solid #000000;
 	border-radius: 8px;
 	margin-top: 3em;
 }
 button[type="button"] a{
-	color: #f4cd36;
+	color: #DDA00C;
+	text-shadow: 1.5px 1.5px #000000;
 	font-size: 150%;
 }
 
 button[type="button"]:hover a{
-	color: #AAA8A8;
+	color: #000000;
+	text-shadow: 1.5px 1.5px #DDA00C;
 }
 button[type="button"]:hover{
-	border: 2px solid #E5BF26;
+	border: 2px solid #DDA00C;
 }
 
 .uno {

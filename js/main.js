@@ -14,8 +14,8 @@ function carousel() {
     }
     slideIndex++;
     if (slideIndex > x.length) {slideIndex = 1}
-  $(x[slideIndex-1]).fadeIn();
-    setTimeout(carousel, 5000);
+  $(x[slideIndex-1]).fadeIn(2000);
+    setTimeout(carousel, 6000);
 }
 
 
